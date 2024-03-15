@@ -8,8 +8,7 @@ export default {
         'custom-lightblue':'#A7B9BB'
       },
       fontFamily: {
-        'saira': ['Saira Extra Condensed', 'sans-serif'],
-        'saira-bold':[]
+        'saira': ['Saira Extra Condensed', 'sans-serif'],     
       },
     },
   },
