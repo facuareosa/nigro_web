@@ -2,7 +2,9 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <div>Navbar</div>
+    <div className='bg-custom-grey'>
+        <p className='font-bold text-custom-lightblue font-saira'>Navbar</p>
+    </div>
   )
 }
 
