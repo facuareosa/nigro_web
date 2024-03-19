@@ -18,7 +18,7 @@ function Navbar() {
           <img
             src={logo}
             alt="bodegón nigro logo"
-            className="rounded-full h-28 shadow-custom border-solid border border-gray-400"
+            className="rounded-full h-20 md:h-28 shadow-custom border-solid border border-gray-400"
           />
         </h1>
         
