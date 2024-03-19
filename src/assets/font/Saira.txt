@@ -1,0 +1,20 @@
+used fontsource
+
+npm install @fontsource/saira-extra-condensed
+
+import '@fontsource/saira-extra-condensed/400.css';
+import '@fontsource/saira-extra-condensed/700.css';
+
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./src/**/*.{html,js,jsx}"],
+  theme: {
+    extend: {
+      fontFamily: {
+        'saira': ['Saira Extra Condensed', 'sans-serif'],
+        'saira-bold':[]
+      },
+    },
+  },
+  plugins: [],
+}
