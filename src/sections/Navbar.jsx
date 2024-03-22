@@ -12,17 +12,17 @@ function Navbar() {
   }
 
   return (
-    <header className="bg-custom-lightblue flex justify-center">
-      <div className="w-full max-w-7xl py-3 grid grid-cols-2 md:grid-cols-3 items-center font-saira font-bold text-white">
-        <h1 className="mx-8 md:mx-0 md:justify-self-start">
+    <header className="bg-custom-lightblue flex justify-center overflow-visible">
+      <div className="w-full max-w-7xl py-3 grid grid-cols-2 md:grid-cols-3 items-center font-saira font-bold text-white overflow-visible">
+        
           <img
             src={logo}
             alt="bodegón nigro logo"
-            className="rounded-full h-20 md:h-28 shadow-custom border-solid border border-gray-400"
+            className="mx-8 md:mx-0 md:justify-self-start rounded-full md:w-28 h-20 md:h-28 shadow-custom border-solid border border-gray-400"
           />
-        </h1>
-        
-        <Nav isOpen={isOpen}/>
+         
+        {/* CORREGIR H1>IMG */}
+        <Nav isOpen={isOpen} className="overflow-visible"/>
 
         <div className={`order-4 flex ${isOpen ? 'items-center justify-center col-span-2' : 'h-0 overflow-hidden'} md:h-auto md:col-span-1 md:justify-end md:items-center gap-3`}>
           <a href="#" className={`${isOpen ? 'hidden' : ''} md:block`}>

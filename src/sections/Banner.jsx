@@ -16,9 +16,9 @@ function Banner() {
 
   return (
     <section className='bg-custom-lightblue flex justify-center'>
-        <div className='flex relative justify-center w-full max-w-7xl h-32 md:h-96 overflow-hidden'>
-            <img src={nigroFrase} alt="Fondo" className='absolute object-cover opacity-10 w-full md:h-96' />
-            <img src={nigroLogo} alt="logo bodegón nigro" className={`absolute inset-1/2 transform -translate-x-1/2 -translate-y-[57%] h-40 md:h-[30rem] opacity-0 scale-150 transition-all duration-[2s] ${displayLogo ? 'opacity-100 scale-100' : ''}`} />
+        <div className='flex relative justify-center w-full max-w-7xl h-32 md:h-96 overflow-visible'>
+            <img src={nigroFrase} alt="Fondo" className='absolute opacity-10 w-full max-h-32 md:max-h-96 md:h-96' />
+            <img src={nigroLogo} alt="logo bodegón nigro" className={`absolute inset-1/2 transform -translate-x-1/2 -translate-y-[57%] h-40 md:h-[30rem] transition-all duration-[2s] ${displayLogo ? 'opacity-100 scale-100' : 'opacity-0 scale-150'}`} />
         </div>
     </section>
   );
