@@ -1,0 +1,132 @@
+{
+    "entrantes": [
+      {
+        "nombre": "Trio de conservas",
+        "descripcion": "----",
+        "precio": 7.60,
+        "imagen": "spaghetti_carbonara.jpg"
+      },
+      {
+        "nombre": " \"Malfatti\" de acelga",
+        "descripcion": "Buñuelos de acelga en salsa fileto",
+        "precio": 7.60,
+        "imagen": "lasagna.jpg"
+      },
+      {
+        "nombre": "Revuelto gramajo",
+        "descripcion": "Patatas fritas paja, guisantes, jamón york y huevos revueltos",
+        "precio": 8.00,
+        "imagen": "lasagna.jpg"
+      },{
+        "nombre": "Provoleta",
+        "descripcion": "Provolone fundido con chimichurri y pimientos asados",
+        "precio": 8.60,
+        "imagen": "lasagna.jpg"
+      },{
+        "nombre": "Rabiosas",
+        "descripcion": "Calamares a la andaluza acompañados de mayonesa de siracha",
+        "precio": 12,
+        "imagen": "lasagna.jpg"
+      },{
+        "nombre": "Empanadas",
+        "descripcion": "Jamón york y queso / Criolla de carne / Saletñas / Capresse",
+        "precio": 2.60,
+        "imagen": "lasagna.jpg"
+      }
+    ],
+    "platos": [
+      {
+        "nombre": "Milanesa Nigro",
+        "descripcion": "Salsa de pizza, mozzarella, salteado de hongos,panceta,verdeo y huevo frito (2 personas)",
+        "precio": 27.00,
+        "imagen": "pollo_al_horno.jpg"
+      },
+      {
+        "nombre": "Milanesa Napolitana",
+        "descripcion": "Salsa de pizza, mozzarella, tomate y jamón york (2 personas)",
+        "precio": 25.00,
+        "imagen": "lasagna.jpg"
+      },
+      {
+        "nombre": "Milanesa fugazzetta",
+        "descripcion": "Salsa de pizza, mozzarella, cebolla y aceitunas negras (2 personas)",
+        "precio": 25.00,
+        "imagen": "pollo_al_horno.jpg"
+      },{
+        "nombre": "Matambre de ternera a la pizza",
+        "descripcion": "Salsa de pizza, mozzarella y pimientos asados",
+        "precio": 15.50,
+        "imagen": "pollo_al_horno.jpg"
+      },{
+        "nombre": "Vacío braseado a la cerveza",
+        "descripcion": "Con verduras asadas",
+        "precio": 15.50,
+        "imagen": "pollo_al_horno.jpg"
+      }
+    ],
+    "pizzas": [
+      {
+        "nombre": "La clásica de mozzarella",
+        "descripcion": "",
+        "precio": 11.90,
+        "imagen": "pollo_al_horno.jpg"
+      },
+      {
+        "nombre": "Mediterránea",
+        "descripcion": "rúcula, jamón serrano, queso parmesano y tomate cherry confitado",
+        "precio": 12.90,
+        "imagen": "lasagna.jpg"
+      },
+      {
+        "nombre": "Especial",
+        "descripcion": "Jamón york pimientos rojos asados y aceitunas",
+        "precio": 12.90,
+        "imagen": "pollo_al_horno.jpg"
+      },{
+        "nombre": "Fugazzeta",
+        "descripcion": "Cebolla, mozzarella y aceitunas negras",
+        "precio": 12.90,
+        "imagen": "pollo_al_horno.jpg"
+      },{
+        "nombre": "Cuatro quesos",
+        "descripcion": "Mozzarella, parmesano, queso azul y gouda",
+        "precio": 12.90,
+        "imagen": "pollo_al_horno.jpg"
+      }
+    ],
+    "pastas": [
+      {
+        "nombre": "Sorrentinos de jamón york y mozzarella",
+        "descripcion": "",
+        "precio": 14.00,
+        "imagen": "pollo_al_horno.jpg"
+      },
+      {
+        "nombre": "Sorrentinos de calabaza asada y mozzarella",
+        "descripcion": "",
+        "precio": 14.00,
+        "imagen": "lasagna.jpg"
+      },
+      {
+        "nombre": "Ravioles de vacío braseado al Malbec",
+        "descripcion": "",
+        "precio": 14.00,
+        "imagen": "pollo_al_horno.jpg"
+      },{
+        "nombre": "Ravioles de espinaca, ricotta, mozzarella y nueces",
+        "descripcion": "",
+        "precio": 14.00,
+        "imagen": "pollo_al_horno.jpg"
+      },{
+        "nombre": "Tallarines",
+        "descripcion": "",
+        "precio": 12.00,
+        "imagen": "pollo_al_horno.jpg"
+      },{
+        "nombre": "Elije tu salsa:",
+        "descripcion": "Bolognesa, Pesto Rosso, Crema de hongos o Salsa de tomates frescos a las hierbas",
+        "precio": 0,
+        "imagen": ""
+      }
+    ]
+  }
