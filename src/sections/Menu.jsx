@@ -15,7 +15,7 @@ function Menu() {
 
             <h2 className='font-saira font-bold text-6xl text-white drop-shadow-custom'>Menú</h2>
             <MenuNav onFoodFilter={handleFoodFilter} />
-            <div className="flex flex-col gap-4 items-center md:w-[54rem]">
+            <div className="flex flex-col gap-4 items-center w-full md:w-[54rem]">
               {foodFilter &&
                 MenuCarta[foodFilter].map((plato, index) => (
                     <MenuCard key={index} plato={plato} />
