@@ -12,11 +12,11 @@ function MenuNav({ onFoodFilter }) {
   };
 
   return (
-    <nav className="flex items-center justify-center py-4 w-[75rem] bg-white border border-solid rounded-[2.5rem]">
-      <ul className="flex justify-around w-full">
+    <nav className="flex items-center justify-center py-4 w-full bg-white border border-solid rounded-[2.5rem]">
+      <ul className="flex justify-around w-full px-4">
         {foodType.map((type, index) => (
           <li
-            className={`text-center list-none w-44 text-white py-2 rounded-[1.25rem] capitalize cursor-pointer hover:bg-custom-gray ${activeLi === type ? "bg-custom-gray" : "bg-custom-lightblue"}`}
+            className={`text-center md:text-xl list-none w-44 text-white font-bold mx-1 md:py-2 rounded-[1.25rem] capitalize cursor-pointer hover:bg-custom-gray ${activeLi === type ? "bg-custom-gray" : "bg-custom-lightblue"}`}
             key={index}
             onClick={() => handleFoodClick(type)}
           >
