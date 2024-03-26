@@ -4,6 +4,7 @@ import Banner from './sections/Banner'
 import Recomendation from './sections/Recomendation'
 import About from './sections/About'
 import Menu from './sections/Menu'
+import Reviews from './sections/Reviews'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Recomendation />
       <About />
       <Menu />
+      <Reviews />
     </div>
   )
 }
