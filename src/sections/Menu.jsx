@@ -10,7 +10,7 @@ function Menu() {
       setFoodFilter(tipo);
     };
     return (
-      <section className="bg-custom-gray py-8 font-saira">
+      <section className="bg-custom-gray py-8 font-saira" id="menu">
         <div className="flex flex-col gap-8 px-4 w-full max-w-7xl my-8 mx-auto items-center">
 
             <h2 className='font-saira font-bold text-6xl text-white drop-shadow-custom'>Menú</h2>

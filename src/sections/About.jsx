@@ -3,7 +3,7 @@ import salonImg from '../assets/images/img-e1.jpg'
 
 function About() {
   return (
-    <section>
+    <section id="nosotros">
         <div className='flex flex-col gap-8 px-4 w-full max-w-7xl my-8 mx-auto items-center   '>
             <h2 className='font-saira font-bold text-6xl text-custom-gray drop-shadow-custom'>Sobre nosotros</h2>
             <div className='flex flex-col md:flex-row md:justify-between'>

@@ -10,13 +10,13 @@ function Nav({isOpen}) {
                 <a href="#" className="hover:text-custom-gray">Inicio</a>
             </li>
             <li>
-              <a href="#" className="hover:text-custom-gray">Nosotros</a>
+              <a href="#nosotros" className="hover:text-custom-gray">Nosotros</a>
             </li>
             <li>
-              <a href="#" className="hover:text-custom-gray">Menú</a>
+              <a href="#menu" className="hover:text-custom-gray">Menú</a>
             </li>
             <li>
-              <a href="#" className="hover:text-custom-gray">Reseñas</a>
+              <a href="#revs" className="hover:text-custom-gray">Reseñas</a>
             </li>
         </ul>
     </nav>

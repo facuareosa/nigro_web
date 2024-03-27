@@ -4,7 +4,7 @@ import googleImg from '../assets/images/google.png'
 
 function Reviews() {
   return (
-    <section className='py-8 font-saira'>
+    <section className='py-8 font-saira' id="revs">
         <div className='flex flex-col bg-white gap-8 px-4 w-full max-w-7xl my-8 mx-auto items-center'>
             <h2 className='font-saira font-bold text-6xl text-custom-gray drop-shadow-custom'>Reseñas</h2>
             <div className='flex items-end'>
