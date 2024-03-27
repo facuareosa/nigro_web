@@ -25,7 +25,7 @@ function ReviewCard() {
 
   return (
     
-      <div className='min-h-[12.25rem] w-96 rounded-md bg-white p-5 shadow-custom flex flex-col items-start gap-4'>
+      <div className='min-h-[12.25rem] my-2 w-96 rounded-md bg-white p-5 shadow-custom flex flex-col items-start gap-4'>
 
         <div className='w-full flex justify-start gap-4'>
           <div className='w-10 h-10'>
@@ -47,11 +47,11 @@ function ReviewCard() {
           ref={ref}
           style={{
             display: isOpen ? 'flex' : '-webkit-box',
-            WebkitLineClamp: 6,
+            WebkitLineClamp: 5,
             WebkitBoxOrient: 'vertical'
           }}
         >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat culpa, dolor quos iste magni id dolore iusto quam voluptatibus illum aut eveniet possimus quo odit nostrum distinctio temporibus eum beatae. asdfasdfasdfasdf klasdfla lasdkf kasdfk 
+               La tienda es preciosa, los regalos son súper originales y el trato es muy especial. Siempre que tenga que hacer un regalito de este estilo, iré a esta tienda 💓
           </p>
         </div>
         {showBtn &&(
