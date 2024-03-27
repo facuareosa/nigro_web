@@ -15,6 +15,7 @@ export default {
       },
       dropShadow: {
         'custom': '0 4px 4px rgba(0, 0, 0, 0.4)',
+        'custom-static': '0 0 4px rgba(0, 0, 0, 0.4)',
       },
       height: {
         'custom': 'calc(100vh - 10.5rem)', // nav container + py-3

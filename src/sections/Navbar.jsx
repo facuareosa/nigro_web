@@ -21,14 +21,13 @@ function Navbar() {
             className="mx-8 md:mx-0 md:justify-self-start rounded-full md:w-28 h-20 md:h-28 shadow-custom border-solid border border-gray-400"
           />
          
-        {/* CORREGIR H1>IMG */}
         <Nav isOpen={isOpen} className="overflow-visible"/>
 
         <div className={`order-4 flex ${isOpen ? 'items-center justify-center col-span-2' : 'h-0 overflow-hidden'} md:h-auto md:col-span-1 md:justify-end md:items-center gap-3`}>
-          <a href="#" className={`${isOpen ? 'hidden' : ''} md:block`}>
+          <a href="https://www.instagram.com/bodegonnigro/" target="_blank" className={`${isOpen ? 'hidden' : ''} md:block`}>
             <FaInstagram className='w-6 h-6 hover:text-custom-gray hover:scale-110'/>
           </a>
-          <a href="#"className="uppercase py-2 px-5 bg-custom-gray text-xl rounded-[1.25rem] hover:scale-95">
+          <a href="https://api.whatsapp.com/send?phone=34686680821" target="_blank" className="uppercase py-2 px-5 bg-custom-gray text-xl rounded-[1.25rem] hover:scale-95">
             hacé tu reserva
           </a>
         </div>

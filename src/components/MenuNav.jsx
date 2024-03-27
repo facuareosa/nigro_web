@@ -16,7 +16,7 @@ function MenuNav({ onFoodFilter }) {
       <ul className="flex justify-around w-full px-4">
         {foodType.map((type, index) => (
           <li
-            className={`text-center md:text-xl list-none w-44 text-white font-bold mx-1 md:py-2 rounded-[1.25rem] capitalize cursor-pointer hover:bg-custom-gray ${activeLi === type ? "bg-custom-gray" : "bg-custom-lightblue"}`}
+            className={`text-center md:text-xl list-none w-44 text-white font-bold mx-1 md:py-2 rounded-[1.25rem] capitalize cursor-pointer hover:bg-custom-gray hover:scale-95 shadow-custom ${activeLi === type ? "bg-custom-gray" : "bg-custom-lightblue"}`}
             key={index}
             onClick={() => handleFoodClick(type)}
           >

@@ -16,7 +16,7 @@ function MenuCard({ plato }) {
   }, [plato]);
 
   return (
-    <div className={`flex justify-between py-2 px-4 md:py-4 md:px-8 bg-custom-lightblue rounded-[1.25rem] w-full h-24 md:h-[9.5rem] ${triggerAnimation ? 'blur-in-expand' : ''}`}>
+    <div className={`flex justify-between py-2 px-4 md:py-4 md:px-8 bg-custom-lightblue rounded-[1.25rem] w-full h-24 md:h-[9.5rem] shadow-custom ${triggerAnimation ? 'blur-in-expand' : ''}`}>
       <div className="flex flex-col w-full justify-between">
         <div className="card__content-wraper">
           <h3 className="font-bold md:text-2xl">{plato.nombre}</h3>

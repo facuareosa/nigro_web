@@ -12,7 +12,7 @@ function Reviews() {
               <p className='font-sans font-bold'>Reviews</p>
             </div>
             <SliderRev/>
-            <a href="#"className="uppercase py-2 px-5 bg-custom-gray text-xl text-white font-bold rounded-[1.25rem] hover:scale-95">
+            <a href="https://acortar.link/a14NTA" target='_blank' className="uppercase py-2 px-5 bg-custom-gray text-xl text-white font-bold rounded-[1.25rem] hover:scale-95">
               Ver más reseñas
             </a>
         </div>
