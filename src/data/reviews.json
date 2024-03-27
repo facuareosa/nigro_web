@@ -1,0 +1,54 @@
+{
+    "revs": [
+      {
+        "name": "Selena Sánchez Salamanca",
+        "description": "Fuimos recomendados por unos amigos y fue un gran acierto. El trato estupendo, el ambiente muy amigable y la comida espectacular. Los platos eran impresionantes y sólo de verlos se nos hacía la boca agua. Recomendamos 100% ir. Volveremos!! 🥰",
+        "img": "./src/assets/images/revs/selenaSanchez.png"
+      },
+      {
+        "name": "Alba Delgado",
+        "description": "Si vas a Mallorca, y sos Argentino o no, comida casera súper recomendable, calidad precio excelente, reserva para no quedarte con las ganas. Platos abundantes. Las empanadas Awesome! Ambiente estupendo. Un acierto Martín y el dulce de leche “Tango” en su panqueque exquisito q(Crêpe) La guinda del pastel. 👌",
+        "img": "./src/assets/images/revs/albaDelgado.png"
+      },
+      {
+        "name": "Florencia Loza",
+        "description": "Muy, muy bueno! La comida riquísima, bien casero todo y con mucho sabor. La atención un diez también. Precios razonables, platos de muy buena calidad. Seguro volveremos a probar el resto de la carta. Recomendado 100%",
+        "img": "./src/assets/images/revs/florenciaLoza.png"
+      },
+      {
+        "name": "Ornelia Pardini",
+        "description": "Buenísimo! La comida deliciosa, casera, abundante y de calidad. La atención muy cálida, son muy amables. Recomendamos la milanesa Nigro, y el flan mixto es una caricia al alma. Sin dudas volveremos para probar otros platos!",
+        "img": "./src/assets/images/revs/orneliaPardini.png"
+      },
+      {
+        "name": "M Natalia",
+        "description": "Todo espectacular! Platos abundantes, comida casera, todo riquisimo y la atención de 10. Las supremas de pollo son gigantes, las empanadas un 10, y de precio buenisimo. El flan no llegó a la foto😂. Obvio volveremos♥️♥️♥️",
+        "img": "./src/assets/images/revs/mNatalia.png"
+      },
+      {
+        "name": "Mariné Rivadavia",
+        "description": "Me encanta Nigro! Lo que más me gusta son sus empanadas salteñas ❤️ y su milanesa napolitana es una bomba, sin dudas volveré muchas veces más 🫶🏻",
+        "img": "./src/assets/images/revs/marineRivadavia.png"
+      },
+      {
+        "name": "Anahi Belen Ortega",
+        "description": "Lugar muy cálido y acogedor, la camarera muy atenta en todo momento 🫶🏻la comida riquísima y abundante, pedimos empanadas, ravioles y pizza y todo estaba buenísimo! Sin duda repetiremos ❤️",
+        "img": "./src/assets/images/revs/anahiBelen.png"
+      },
+      {
+        "name": "Hernando Aveldaño",
+        "description": "Comimos empanadas salteñas y capresse! Luego pedimos milanesas napolitana para compartir y matambre a la pizza, todo casero! De postre arroz con leche y panqueque con dulce de leche! Nos encantó! Volveremos!😊",
+        "img": "./src/assets/images/revs/hernandoAveldaño.png"
+      },
+      {
+        "name": "Julieta J. Torres",
+        "description": "Después de varios años viviendo en la isla y extrañando la gastronomía de mi país, llega esta gente maravillosa a revolucionarlo todo. Sabores fieles a nuestra tierra, aún estando tan tan lejos. La atención, los sabores, el ambiente... Todo un placer. Gracias Nigro, volveremos.",
+        "img": "./src/assets/images/revs/julietaTorres.png"
+      },
+      {
+        "name": "María Florencia Mendez Ares",
+        "description": "Excelente comida argentina. Te lleva por un rato de vuelta a las costumbres argentinas. Probamos las empanadas salteñas, la degustación de conservas, Milanesa a la napolitana, flan, queso y dulce y café. Impecable. La atención de Micaela y Alexis es muy amena.",
+        "img": "./src/assets/images/revs/mariaFlorencia.png"
+      }
+    ]
+}

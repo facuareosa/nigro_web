@@ -3,8 +3,10 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import ReviewCard from './ReviewCard';
+import revsProfile from '../data/reviews.json'
 
 function SliderRev() {
+
     function SampleNextArrow(props) {
         const { className, style, onClick } = props;
         return (
@@ -61,18 +63,13 @@ function SliderRev() {
           }
         ]
       };
+const revsData = revsProfile.revs
   return (
     <div className='slider-container w-full'>
         <Slider {...settings}>
-            <ReviewCard />
-            <ReviewCard />
-            <ReviewCard />
-            <ReviewCard />
-            <ReviewCard />
-            <ReviewCard />
-            <ReviewCard />
-            <ReviewCard />
-            <ReviewCard />
+        {revsData.map((revData, index)=>(
+            <ReviewCard key={index} revData={revData}/>
+          ))}
         </Slider>
     </div>
   )

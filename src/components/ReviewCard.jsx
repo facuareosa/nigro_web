@@ -1,12 +1,12 @@
 import React, { useEffect, useState, useRef } from 'react'
-import imgTest from "../assets/images/img-logo2.png";
+import imgTest from "../assets/images/revs/albaDelgado.png";
 
 
 const openParagraph = {
   display: 'flex',
 }
 
-function ReviewCard() {
+function ReviewCard({revData}) {
 
   const [isOpen, setIsOpen] = useState (false)
 
@@ -25,16 +25,13 @@ function ReviewCard() {
 
   return (
     
-      <div className='min-h-[12.25rem] my-2 w-96 rounded-md bg-white p-5 shadow-custom flex flex-col items-start gap-4'>
+      <div className='h-56 my-2 w-96 rounded-md bg-white p-5 shadow-custom flex flex-col items-start gap-4'>
 
         <div className='w-full flex justify-start gap-4'>
           <div className='w-10 h-10'>
-            <img src={imgTest} alt="imagen perfil" className='h-full rounded-full' />
+            <img src={revData.img} alt="imagen perfil" className='h-full' />
           </div>
-          <div className="flex flex-col gap-1">
-            <p className="text-sm font-bold">Eva Rodriguez</p>
-            <p className="opacity-50 text-xs">22 de mayo</p>
-          </div>
+          <p className="text-sm font-bold">{revData.name}</p>
         </div>
         <div className='self-start'>
           <p className='text-yellow-500 text-base font-bold'>
@@ -51,7 +48,7 @@ function ReviewCard() {
             WebkitBoxOrient: 'vertical'
           }}
         >
-               La tienda es preciosa, los regalos son súper originales y el trato es muy especial. Siempre que tenga que hacer un regalito de este estilo, iré a esta tienda 💓
+          {revData.description}
           </p>
         </div>
         {showBtn &&(
