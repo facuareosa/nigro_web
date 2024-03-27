@@ -1,5 +1,4 @@
 import React, { useEffect, useState, useRef } from 'react'
-import imgTest from "../assets/images/revs/albaDelgado.png";
 
 
 const openParagraph = {
@@ -17,7 +16,6 @@ function ReviewCard({revData}) {
   
   useEffect(() => {
     if (ref.current) {
-      console.log(ref.current.scrollHeight, ref.current.clientHeight)
       setShowBtn(
         !(ref.current.scrollHeight >= ref.current.clientHeight -1 && ref.current.scrollHeight <= ref.current.clientHeight +1))
     }
