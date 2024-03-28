@@ -2,8 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+    scroll-behavior: smooth;
+    scroll-padding:8rem;
+}
 body{
-    padding-top: 8.5rem;
+    padding-top: 7.75rem;
 }
 /* Estilo de flechas slider */
 .slick-prev::before, .slick-next::before{
@@ -19,7 +23,10 @@ body{
         display: none;
     }
     body{
-        padding-top: 6.5rem;
+        padding-top: 5.75rem;
+    }
+    html{
+        scroll-padding:5.75rem;
     }
 }
 /* Animación de menú */
