@@ -21,7 +21,7 @@ function Navbar() {
             className="mx-8 md:mx-0 md:justify-self-start rounded-full md:w-28 h-20 md:h-28 shadow-custom border-solid border border-gray-400"
           />
          
-        <Nav isOpen={isOpen} className="overflow-visible"/>
+        <Nav isOpen={isOpen} toggleNavbar={toggleNavbar} className="overflow-visible"/>
 
         <div className={`order-4 flex ${isOpen ? 'items-center justify-center col-span-2' : 'h-0 overflow-hidden'} md:h-auto md:col-span-1 md:justify-end md:items-center gap-3`}>
           <a href="https://www.instagram.com/bodegonnigro/" target="_blank" className={`${isOpen ? 'hidden' : ''} md:block`}>
