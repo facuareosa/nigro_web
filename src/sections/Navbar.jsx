@@ -12,7 +12,7 @@ function Navbar() {
   }
 
   return (
-    <header className="bg-custom-lightblue flex justify-center overflow-visible">
+    <header className="bg-custom-lightblue border-b border-solid border-custom-gray flex justify-center overflow-visible fixed w-full top-0 z-50">
       <div className="w-full max-w-7xl py-3 grid grid-cols-2 md:grid-cols-3 items-center font-saira font-bold text-white overflow-visible">
         
           <img

@@ -2,7 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
+body{
+    padding-top: 8.5rem;
+}
 /* Estilo de flechas slider */
 .slick-prev::before, .slick-next::before{
     color: #5D6970;
@@ -15,6 +17,9 @@
     .slick-prev::before,
     .slick-next::before {
         display: none;
+    }
+    body{
+        padding-top: 6.5rem;
     }
 }
 /* Animación de menú */
