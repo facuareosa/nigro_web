@@ -19,7 +19,7 @@ function Navbar() {
             <img
               src={logo}
               alt="bodegón nigro logo"
-              className="mx-8 md:mx-0 md:justify-self-start rounded-full md:w-28 h-20 md:h-28 shadow-custom border-solid border border-gray-400"
+              className="mx-8 md:mx-0 md:justify-self-start rounded-full w-20 md:w-28 h-20 md:h-28 shadow-custom border-solid border border-gray-400"
             />
           
          
