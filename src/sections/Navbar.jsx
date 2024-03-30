@@ -15,11 +15,13 @@ function Navbar() {
     <header className="bg-custom-lightblue border-b border-solid border-custom-gray flex justify-center overflow-visible fixed w-screen top-0 z-50">
       <div className="w-full max-w-7xl py-2 grid grid-cols-2 md:grid-cols-3 items-center font-saira font-bold text-white overflow-visible">
         
-          <img
-            src={logo}
-            alt="bodegón nigro logo"
-            className="mx-8 md:mx-0 md:justify-self-start rounded-full md:w-28 h-20 md:h-28 shadow-custom border-solid border border-gray-400"
-          />
+          <a href="#">
+            <img
+              src={logo}
+              alt="bodegón nigro logo"
+              className="mx-8 md:mx-0 md:justify-self-start rounded-full md:w-28 h-20 md:h-28 shadow-custom border-solid border border-gray-400"
+            />
+          </a>
          
         <Nav isOpen={isOpen} toggleNavbar={toggleNavbar} className="overflow-visible"/>
 
