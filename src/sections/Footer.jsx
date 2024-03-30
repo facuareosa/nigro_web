@@ -27,8 +27,9 @@ function Footer() {
                 </div>
             </div>
         </div>
-        <div className='border-t-2 border-solid border-custom-gray flex justify-center py-2 text-xl text-white'>
-            <a href="https://linkedin.com/in/facuareosa" target='_blank' className=''> Diseñado y desarrollado por <span className='text-custom-gray font-bold'>Facundo Areosa</span></a>
+        <div className='border-t-2 border-solid border-custom-gray flex justify-center gap-1 py-2 text-xl text-white'>
+            <a href="https://linkedin.com/in/facuareosa" target='_blank' className=''> Diseñado y desarrollado por <span className='text-custom-gray font-bold'>Facundo Areosa </span>para </a>
+            <h1>Bodegón Nigro</h1>
         </div>
     </footer>
   )
