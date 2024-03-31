@@ -24,8 +24,8 @@ function MenuCard({ plato }) {
         </div>
         <span className="md:text-2xl font-bold justify-self-end">{precioFormateado()}</span>
       </div>
-      <div className="h-[4.5rem] md:h-[7.5rem] self-center">
-        <img src={menuImg} alt="imagen comida" className="h-full object-cover" />
+      <div className="h-[4.5rem] md:h-[7.5rem] w-[7.5rem] self-center">
+        <img src={plato.img} alt="imagen comida" className="w-full h-full rounded-xl object-cover" />
       </div>
     </div>
   );
