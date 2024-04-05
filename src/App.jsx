@@ -9,7 +9,7 @@ import Footer from './sections/Footer'
 
 function App() {
   return (
-    <div>
+    <div className='overflow-hidden'>
       <Navbar />
       <Banner />
       <Recomendation />
